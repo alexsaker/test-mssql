@@ -5,7 +5,7 @@ const MsSQLErrors = require("./errors");
 
 const config = {
   user: "sa",
-  password: "gsxpassword",
+  password: "mssqlPassword",
   server: "localhost", // You can use 'localhost\\instance' to connect to named instance
   database: "testmssql",
   pool: {
