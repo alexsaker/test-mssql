@@ -2,16 +2,19 @@
   "name": "test-mssql",
   "version": "1.0.0",
   "description": "",
-  "main": "create.js",
+  "main": "./src/create.js",
   "dependencies": {
     "bluebird": "^3.5.1",
     "mssql": "^4.1.0"
   },
   "devDependencies": {},
   "scripts": {
+    "create": "node ./src/create.js",
+    "insert": "node ./src/insert.js",
+    "select": "node ./src/select.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Alexandre Saker",
   "license": "MIT"
 }
